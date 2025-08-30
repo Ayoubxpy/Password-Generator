@@ -1,0 +1,62 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#phrase {
+    color: #4ECCA3;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+#password-display {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    min-height: 30px;
+    color: #4ECCA3;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #4ECCA3;
+    color: #1A1A1A;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #3aa483;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
